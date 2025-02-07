@@ -1,0 +1,138 @@
+/* body p {
+    color: red;
+} */
+
+/* lấy con trực tiếp (tất cả cấp ngay dưới) */
+/* select all <p> elements that are direct childen of .intro element */
+/* .intro > p {
+  color: blue;
+} */
+
+/* lấy tất cả thẻ <p> trong thẻ thẻ có class = intro */
+/* select all <p> element inside .intro element */
+/* .intro p {
+  color: blue;
+} */
+
+/* lấy thẻ thoả 2 điều kiện: là thẻ <p> và có class = myquote */
+/* select all <p> elenemts have class = myquote */
+/* p.myquote {
+  color: blue;
+} */
+
+/* lấy tất cả thẻ <a> đồng cấp và ở sau thẻ <p> */
+/* select all <a> elements that are behind and on the same level as <p> element*/
+/* p ~ a {
+  color: blue;
+} */
+
+/* lấy thẻ <a> đầu tiên đồng cấp và ở ngay sau thẻ <p> */
+/* select the first <a> element that is immediately after and on the same level as <p> element */
+/* p + a {
+  font-size: 100px;
+} */
+
+/* chọn tất cả phần tử có class = myquote và tất cả phần tử có class = test*/
+/* .myquote,
+.test {
+  color: red;
+}
+
+.myquote.test {
+  text-decoration: line-through;
+}
+
+:root {
+  --my_color: underline;
+}
+
+.myquote.test {
+  text-decoration: var(--my_color);
+}
+
+html {
+  font-size: 100%;
+} */
+
+/* p {
+  font-size: 3rem;
+  background-color: rgb(104, 104, 180);
+  border: 1rem solid green;
+} */
+/* .intro {
+  font-size: 80px;
+  border: 1px violet dotted;
+}
+
+.intro > p {
+  border: 2rem black double;
+} */
+
+/* .loader {
+  transform: scale(0.5);
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 1em;
+  transition: all 150ms linear 0s;
+  color: #f5a623;
+  box-shadow: -0.20905692654613475em 1.9890437907354086em 0 -0.175em,
+    -1.000000000011786em 1.7320508075620726em 0 -0.175em,
+    -1.618033988759494em 1.1755705045717344em 0 -0.175em,
+    -1.9562952014715724em 0.41582338161688265em 0 -0.175em,
+    -1.956295201463084em -0.41582338165681776em 0 -0.175em,
+    -1.6180339887354962em -1.1755705046047644em 0 -0.175em,
+    -0.9999999999764283em -1.7320508075824863em 0 -0.175em,
+    -0.20905692650553023em -1.9890437907396763em 0 -0.175em,
+    0.6180339887809577em -1.9021130325802142em 0 -0.175em,
+    1.3382612127440119em -1.4862896509311119em 0 -0.175em,
+    1.8270909153007004em -0.8134732861167899em 0 -0.175em;
+  animation: spinDots 1050ms infinite steps(15);
+}
+@keyframes spinDots {
+  0% {
+    transform: scale(0.5) rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: scale(0.5) rotate(180deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: scale(0.5) rotate(360deg);
+  }
+} */
+
+/* li:first-child {
+  color: green;
+}
+
+li:last-child {
+  color: blueviolet;
+}
+
+.button {
+  text-decoration: none;
+  padding: auto;
+  color: white;
+  background-color: green;
+  &:hover {
+    color: green;
+    background-color: black;
+  }
+} */
+
+/* .box {
+  background-color: blue;
+  width: 100%;
+  height: 200px;
+  &::before {
+    content: "xin chào";
+    display: block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+  }
+} */
